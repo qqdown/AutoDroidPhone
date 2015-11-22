@@ -1,0 +1,694 @@
+Get a connection from /127.0.0.1:44442
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+java.io.EOFException
+
+	at java.io.DataInputStream.readByte(DataInputStream.java:98)
+
+	at java.io.ObjectInputStream.nextTC(ObjectInputStream.java:506)
+
+	at java.io.ObjectInputStream.readNonPrimitiveContent(ObjectInputStream.java:778)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:2013)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:1970)
+
+	at edu.nju.autodroid.Client.testMain(Client.java:53)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:44443
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+java.io.EOFException
+
+	at java.io.DataInputStream.readByte(DataInputStream.java:98)
+
+	at java.io.ObjectInputStream.nextTC(ObjectInputStream.java:506)
+
+	at java.io.ObjectInputStream.readNonPrimitiveContent(ObjectInputStream.java:778)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:2013)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:1970)
+
+	at edu.nju.autodroid.Client.testMain(Client.java:53)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:44444
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+java.io.EOFException
+
+	at java.io.DataInputStream.readByte(DataInputStream.java:98)
+
+	at java.io.ObjectInputStream.nextTC(ObjectInputStream.java:506)
+
+	at java.io.ObjectInputStream.readNonPrimitiveContent(ObjectInputStream.java:778)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:2013)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:1970)
+
+	at edu.nju.autodroid.Client.testMain(Client.java:53)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:42323
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+java.io.EOFException
+
+	at java.io.DataInputStream.readByte(DataInputStream.java:98)
+
+	at java.io.ObjectInputStream.nextTC(ObjectInputStream.java:506)
+
+	at java.io.ObjectInputStream.readNonPrimitiveContent(ObjectInputStream.java:778)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:2013)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:1970)
+
+	at edu.nju.autodroid.Client.testMain(Client.java:53)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:42324
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+java.io.EOFException
+
+	at java.io.DataInputStream.readByte(DataInputStream.java:98)
+
+	at java.io.ObjectInputStream.nextTC(ObjectInputStream.java:506)
+
+	at java.io.ObjectInputStream.readNonPrimitiveContent(ObjectInputStream.java:778)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:2013)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:1970)
+
+	at edu.nju.autodroid.Client.testMain(Client.java:53)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:46312
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[INDEX=0, CHILD=UiSelector[INDEX=0, CHILD=UiSelector[INDEX=0, CHILD=UiSelector[INDEX=0, CHILD=UiSelector[INDEX=0, CHILD=UiSelector[INDEX=0, CHILD=UiSelector[INDEX=0, CHILD=UiSelector[INDEX=0, CHILD=UiSelector[INDEX=0, CHILD=UiSelector[INDEX=0]]]]]]]]]]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:337)
+
+	at edu.nju.autodroid.CommandHandler.doClick(CommandHandler.java:117)
+
+	at edu.nju.autodroid.CommandHandler.Handle(CommandHandler.java:40)
+
+	at edu.nju.autodroid.Client.testMain(Client.java:55)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+java.io.StreamCorruptedException
+
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1528)
+
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1481)
+
+	at edu.nju.autodroid.Client.testMain(Client.java:56)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:46313
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+java.io.StreamCorruptedException
+
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1528)
+
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1481)
+
+	at edu.nju.autodroid.Client.testMain(Client.java:56)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:40465
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+java.io.StreamCorruptedException
+
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1528)
+
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1481)
+
+	at edu.nju.autodroid.Client.testMain(Client.java:56)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:50941
+
+java.io.EOFException
+
+	at libcore.io.Streams.readFully(Streams.java:83)
+
+	at java.io.DataInputStream.readShort(DataInputStream.java:169)
+
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:2111)
+
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:372)
+
+	at edu.nju.autodroid.Client.testMain(Client.java:48)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+

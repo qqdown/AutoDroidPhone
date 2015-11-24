@@ -12,6 +12,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
+import edu.nju.autodroid.utils.Configuration;
+
 public class UiAutomatorHelper {
 
 	// 以下参数需要配置，用例集id，用例id，安卓id
@@ -23,9 +25,9 @@ public class UiAutomatorHelper {
 	// 工作空间不需要配置，自动获取工作空间目录
 	private static String workspace_path;
 	
-	private final String android = "E:\\Program Files\\android-sdk-windows\\tools\\android.bat";
-	private final String adb = "E:\\Program Files\\android-sdk-windows\\platform-tools\\adb.exe";
-	private final String ant = "E:\\Program Files\\apache-ant-1.9.6\\bin\\ant.bat";
+	private final String android = Configuration.getAndroidPath();
+	private final String adb = Configuration.getADBPath();
+	private final String ant = Configuration.getAntPath();
 
     public static void main(String[] args) {
 		

@@ -692,3 +692,5046 @@ client error null
 
 Waiting for new server!
 
+Updated file F:\EclipseProject\AutoDroidPhone\build.xml
+'xcopy' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+Buildfile: F:\EclipseProject\AutoDroidPhone\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Program Files\android-sdk-windows
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for autodroidclient...
+[getuitarget] Project Target:   Android 4.3.1
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: F:\EclipseProject\AutoDroidPhone\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 4 source files to F:\EclipseProject\AutoDroidPhone\bin\classes
+    [javac] 警告: [options] 源值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 目标值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 要隐藏有关已过时选项的警告, 请使用 -Xlint:-options。
+    [javac] 注: F:\EclipseProject\AutoDroidPhone\src\edu\nju\autodroid\CommandHandler.java使用或覆盖了已过时的 API。
+    [javac] 注: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+    [javac] 3 个警告
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\EclipseProject\AutoDroidPhone\bin\classes
+      [dex] Converting compiled files and external libraries into F:\EclipseProject\AutoDroidPhone\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\EclipseProject\AutoDroidPhone\bin\autodroidclient.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+218 KB/s (7375 bytes in 0.033s)
+INSTRUMENTATION_RESULT: shortMsg=java.lang.RuntimeException
+
+INSTRUMENTATION_RESULT: longMsg=Didn't find class "edu.nju.autodroid.Client" on path: /system/framework/android.test.runner.jar:/system/framework/uiautomator.jar::/data/local/tmp/autodroidclient.jar
+
+INSTRUMENTATION_CODE: 0
+
+Updated file F:\EclipseProject\AutoDroidPhone\build.xml
+'xcopy' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+Buildfile: F:\EclipseProject\AutoDroidPhone\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Program Files\android-sdk-windows
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for autodroidclient...
+[getuitarget] Project Target:   Android 4.3.1
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to F:\EclipseProject\AutoDroidPhone\bin\classes
+    [javac] 警告: [options] 源值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 目标值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 要隐藏有关已过时选项的警告, 请使用 -Xlint:-options。
+    [javac] 3 个警告
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\EclipseProject\AutoDroidPhone\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\EclipseProject\AutoDroidPhone\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\EclipseProject\AutoDroidPhone\bin\autodroidclient.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+349 KB/s (7384 bytes in 0.020s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=edu.nju.autodroid.PhoneMain
+
+INSTRUMENTATION_STATUS: stream=
+
+edu.nju.autodroid.PhoneMain:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testMain
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:54655
+
+java.io.EOFException
+
+	at libcore.io.Streams.readFully(Streams.java:83)
+
+	at java.io.DataInputStream.readShort(DataInputStream.java:169)
+
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:2111)
+
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:372)
+
+	at edu.nju.autodroid.PhoneMain.testMain(PhoneMain.java:48)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:46593
+
+java.io.EOFException
+
+	at libcore.io.Streams.readFully(Streams.java:83)
+
+	at java.io.DataInputStream.readShort(DataInputStream.java:169)
+
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:2111)
+
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:372)
+
+	at edu.nju.autodroid.PhoneMain.testMain(PhoneMain.java:48)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:39337
+
+Get command 4098
+
+Send command 4098
+
+java.io.EOFException
+
+	at java.io.DataInputStream.readByte(DataInputStream.java:98)
+
+	at java.io.ObjectInputStream.nextTC(ObjectInputStream.java:506)
+
+	at java.io.ObjectInputStream.readNonPrimitiveContent(ObjectInputStream.java:778)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:2013)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:1970)
+
+	at edu.nju.autodroid.PhoneMain.testMain(PhoneMain.java:53)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:39338
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+java.io.StreamCorruptedException
+
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1528)
+
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1481)
+
+	at edu.nju.autodroid.PhoneMain.testMain(PhoneMain.java:56)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:54607
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+java.io.StreamCorruptedException
+
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1528)
+
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1481)
+
+	at edu.nju.autodroid.PhoneMain.testMain(PhoneMain.java:56)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Updated file F:\EclipseProject\AutoDroidPhone\build.xml
+'xcopy' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+Buildfile: F:\EclipseProject\AutoDroidPhone\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Program Files\android-sdk-windows
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for autodroidclient...
+[getuitarget] Project Target:   Android 4.3.1
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\EclipseProject\AutoDroidPhone\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\EclipseProject\AutoDroidPhone\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\EclipseProject\AutoDroidPhone\bin\autodroidclient.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+327 KB/s (7384 bytes in 0.022s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=edu.nju.autodroid.PhoneMain
+
+INSTRUMENTATION_STATUS: stream=
+
+edu.nju.autodroid.PhoneMain:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testMain
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=edu.nju.autodroid.PhoneMain
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testMain:
+
+java.net.BindException: bind failed: EADDRINUSE (Address already in use)
+
+	at libcore.io.IoBridge.bind(IoBridge.java:89)
+
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:150)
+
+	at java.net.ServerSocket.<init>(ServerSocket.java:100)
+
+	at java.net.ServerSocket.<init>(ServerSocket.java:69)
+
+	at edu.nju.autodroid.PhoneMain.testMain(PhoneMain.java:38)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+Caused by: libcore.io.ErrnoException: bind failed: EADDRINUSE (Address already in use)
+
+	at libcore.io.Posix.bind(Native Method)
+
+	at libcore.io.ForwardingOs.bind(ForwardingOs.java:40)
+
+	at libcore.io.IoBridge.bind(IoBridge.java:87)
+
+	... 19 more
+
+
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stack=java.net.BindException: bind failed: EADDRINUSE (Address already in use)
+
+	at libcore.io.IoBridge.bind(IoBridge.java:89)
+
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:150)
+
+	at java.net.ServerSocket.<init>(ServerSocket.java:100)
+
+	at java.net.ServerSocket.<init>(ServerSocket.java:69)
+
+	at edu.nju.autodroid.PhoneMain.testMain(PhoneMain.java:38)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+Caused by: libcore.io.ErrnoException: bind failed: EADDRINUSE (Address already in use)
+
+	at libcore.io.Posix.bind(Native Method)
+
+	at libcore.io.ForwardingOs.bind(ForwardingOs.java:40)
+
+	at libcore.io.IoBridge.bind(IoBridge.java:87)
+
+	... 19 more
+
+
+
+INSTRUMENTATION_STATUS: test=testMain
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 0.413
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file F:\EclipseProject\AutoDroidPhone\build.xml
+'xcopy' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+Buildfile: F:\EclipseProject\AutoDroidPhone\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Program Files\android-sdk-windows
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for autodroidclient...
+[getuitarget] Project Target:   Android 4.3.1
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\EclipseProject\AutoDroidPhone\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\EclipseProject\AutoDroidPhone\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\EclipseProject\AutoDroidPhone\bin\autodroidclient.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+300 KB/s (7384 bytes in 0.024s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=edu.nju.autodroid.PhoneMain
+
+INSTRUMENTATION_STATUS: stream=
+
+edu.nju.autodroid.PhoneMain:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testMain
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+Waiting for new server!
+
+Updated file F:\EclipseProject\AutoDroidPhone\build.xml
+'xcopy' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+Buildfile: F:\EclipseProject\AutoDroidPhone\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Program Files\android-sdk-windows
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for autodroidclient...
+[getuitarget] Project Target:   Android 4.3.1
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to F:\EclipseProject\AutoDroidPhone\bin\classes
+    [javac] 警告: [options] 源值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 目标值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 要隐藏有关已过时选项的警告, 请使用 -Xlint:-options。
+    [javac] 注: F:\EclipseProject\AutoDroidPhone\src\edu\nju\autodroid\CommandHandler.java使用或覆盖了已过时的 API。
+    [javac] 注: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+    [javac] 3 个警告
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\EclipseProject\AutoDroidPhone\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into F:\EclipseProject\AutoDroidPhone\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\EclipseProject\AutoDroidPhone\bin\autodroidclient.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+286 KB/s (7480 bytes in 0.025s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=edu.nju.autodroid.PhoneMain
+
+INSTRUMENTATION_STATUS: stream=
+
+edu.nju.autodroid.PhoneMain:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testMain
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:40174
+
+Get command 4099
+
+Send command 4099
+
+java.io.EOFException
+
+	at java.io.DataInputStream.readByte(DataInputStream.java:98)
+
+	at java.io.ObjectInputStream.nextTC(ObjectInputStream.java:506)
+
+	at java.io.ObjectInputStream.readNonPrimitiveContent(ObjectInputStream.java:778)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:2013)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:1970)
+
+	at edu.nju.autodroid.PhoneMain.testMain(PhoneMain.java:53)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:40175
+
+Get command 4099
+
+Send command 4099
+
+java.io.EOFException
+
+	at java.io.DataInputStream.readByte(DataInputStream.java:98)
+
+	at java.io.ObjectInputStream.nextTC(ObjectInputStream.java:506)
+
+	at java.io.ObjectInputStream.readNonPrimitiveContent(ObjectInputStream.java:778)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:2013)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:1970)
+
+	at edu.nju.autodroid.PhoneMain.testMain(PhoneMain.java:53)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:40176
+
+Get command 4099
+
+Send command 4099
+
+java.io.EOFException
+
+	at java.io.DataInputStream.readByte(DataInputStream.java:98)
+
+	at java.io.ObjectInputStream.nextTC(ObjectInputStream.java:506)
+
+	at java.io.ObjectInputStream.readNonPrimitiveContent(ObjectInputStream.java:778)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:2013)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:1970)
+
+	at edu.nju.autodroid.PhoneMain.testMain(PhoneMain.java:53)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:40177
+
+Get command 4099
+
+Send command 4099
+
+Get command 4098
+
+Send command 4098
+
+Get command 2
+
+Send command 2
+
+Get command 4098
+
+Send command 4098
+
+java.io.EOFException
+
+	at java.io.DataInputStream.readByte(DataInputStream.java:98)
+
+	at java.io.ObjectInputStream.nextTC(ObjectInputStream.java:506)
+
+	at java.io.ObjectInputStream.readNonPrimitiveContent(ObjectInputStream.java:778)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:2013)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:1970)
+
+	at edu.nju.autodroid.PhoneMain.testMain(PhoneMain.java:53)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:40178
+
+Get command 4099
+
+Send command 4099
+
+Get command 4098
+
+Send command 4098
+
+Get command 2
+
+Send command 2
+
+Get command 4098
+
+Send command 4098
+
+java.io.EOFException
+
+	at java.io.DataInputStream.readByte(DataInputStream.java:98)
+
+	at java.io.ObjectInputStream.nextTC(ObjectInputStream.java:506)
+
+	at java.io.ObjectInputStream.readNonPrimitiveContent(ObjectInputStream.java:778)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:2013)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:1970)
+
+	at edu.nju.autodroid.PhoneMain.testMain(PhoneMain.java:53)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:40179
+
+Get command 4099
+
+Send command 4099
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 2
+
+Send command 2
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 2
+
+Send command 2
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+java.io.StreamCorruptedException
+
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1528)
+
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1481)
+
+	at edu.nju.autodroid.PhoneMain.testMain(PhoneMain.java:56)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:36857
+
+Get command 4099
+
+Send command 4099
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+java.io.StreamCorruptedException
+
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1528)
+
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1481)
+
+	at edu.nju.autodroid.PhoneMain.testMain(PhoneMain.java:56)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:36858
+
+Get command 4099
+
+Send command 4099
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+java.io.StreamCorruptedException
+
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1528)
+
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1481)
+
+	at edu.nju.autodroid.PhoneMain.testMain(PhoneMain.java:56)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:36859
+
+Get command 4099
+
+Send command 4099
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 2
+
+Send command 2
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+java.io.StreamCorruptedException
+
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1528)
+
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1481)
+
+	at edu.nju.autodroid.PhoneMain.testMain(PhoneMain.java:56)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:32818
+
+Get command 4099
+
+Send command 4099
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 2
+
+Send command 2
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 2
+
+Send command 2
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 2
+
+Send command 2
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+java.io.EOFException
+
+	at java.io.DataInputStream.readByte(DataInputStream.java:98)
+
+	at java.io.ObjectInputStream.nextTC(ObjectInputStream.java:506)
+
+	at java.io.ObjectInputStream.readNonPrimitiveContent(ObjectInputStream.java:778)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:2013)
+
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:1970)
+
+	at edu.nju.autodroid.PhoneMain.testMain(PhoneMain.java:53)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:511)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:144)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:87)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:90)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+client error null
+
+Waiting for new server!
+
+Get a connection from /127.0.0.1:32823
+
+Get command 4099
+
+Send command 4099
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+
+Get command 4097
+
+dumpFile /data/local/tmp/dump.xml | dump.xml
+
+Send command 4097
+
+Get command 8193
+
+Send command 8193
+

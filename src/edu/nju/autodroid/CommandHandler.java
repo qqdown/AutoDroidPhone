@@ -20,8 +20,14 @@ public class CommandHandler {
 		backCmd.cmd = cmd.cmd;
 		switch(backCmd.cmd){
 		case Command.cmdPressHome:
-			pressHome();
+			backCmd.params = new String[1];
+			backCmd.params[0] = Boolean.toString(pressHome());
 			break;
+		case Command.cmdPressBack:
+			backCmd.params = new String[1];
+			backCmd.params[0] = Boolean.toString(pressBack());
+			break;
+			
 		case Command.cmdGetLayout:
 			backCmd.params = new String[1];
 			backCmd.params[0] = getLayout();
@@ -66,6 +72,10 @@ public class CommandHandler {
 	//0x0001
 	private static boolean pressHome(){
 		return UiDevice.getInstance().pressHome();
+	}
+	
+	private static boolean pressBack(){
+		return UiDevice.getInstance().pressBack();
 	}
 	
 	//0x1001

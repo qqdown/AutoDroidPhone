@@ -15,13 +15,13 @@ import edu.nju.uiautomator.UiAutomatorHelper;
 
 
 public class PhoneMain extends UiAutomatorTestCase {
-	public static final String TAG = "client";  
+	public static final String TAG = "phone";  
     public static int PHONE_PORT = 22222; 
     
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String jarName = "autodroidclient";
-		String testClass = "edu.nju.autodroid.Client";
+		String testClass = "edu.nju.autodroid.PhoneMain";
 		String testName = "testMain";
 		String androidId = "6";
 		new UiAutomatorHelper(jarName, testClass, testName, androidId);

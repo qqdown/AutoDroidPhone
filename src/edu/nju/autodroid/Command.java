@@ -13,13 +13,16 @@ public class Command implements Serializable{
 	public static final int cmdPressBack = 0x0002;
 	
 	public static final int cmdGetLayout = 0x1001;
-	@Deprecated //uiautomaot涓嶆敮鎸佽繖涓柟娉�
+	@Deprecated //uiautomator不再支持
 	public static final int cmdGetActivity = 0x1002;
 	public static final int cmdGetPackage = 0x1003;
 	
 	public static final int cmdDoClick = 0x2001;
 	public static final int cmdDoSetText = 0x2002;
 	public static final int cmdDoLongClick = 0x2003;
+	
+	public static final int cmdDoScrollBackward = 0x2101;
+	public static final int cmdDoScrollForward = 0x2102;
 	
 	public Command(){
 		params = null;

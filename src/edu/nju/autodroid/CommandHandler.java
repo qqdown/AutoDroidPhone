@@ -10,9 +10,11 @@ import java.io.IOException;
 import com.android.uiautomator.core.UiDevice;
 import com.android.uiautomator.core.UiObject;
 import com.android.uiautomator.core.UiObjectNotFoundException;
+import com.android.uiautomator.core.UiScrollable;
 import com.android.uiautomator.core.UiSelector;
 
 import android.os.Environment;
+import edu.nju.autodroid.utils.Logger;
 
 public class CommandHandler {
 	public static Command Handle(Command cmd){
@@ -62,6 +64,18 @@ public class CommandHandler {
 			else
 				backCmd.params[0] = "false";
 			break;
+		case Command.cmdDoScrollBackward:
+			backCmd.params = new String[1];
+			if(doScrollBackBackward(cmd.params[0], Integer.parseInt(cmd.params[1])))
+				backCmd.params[0] = "true";
+			else
+				backCmd.params[0] = "false";
+		case Command.cmdDoScrollForward:
+			backCmd.params = new String[1];
+			if(doScrollForward(cmd.params[0], Integer.parseInt(cmd.params[1])))
+				backCmd.params[0] = "true";
+			else
+				backCmd.params[0] = "false";
 		default:
 			backCmd.cmd = Command.cmdUnknown;
 		}
@@ -92,16 +106,17 @@ public class CommandHandler {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-		UiDevice.getInstance().dumpWindowHierarchy(dumpFile.getName());
+		
 		String layoutStr = null;
 		try {
+			UiDevice.getInstance().dumpWindowHierarchy(dumpFile.getName());
 			 Long filelength = dumpFile.length();     //鑾峰彇鏂囦欢闀垮害
              byte[] filecontent = new byte[filelength.intValue()];
              FileInputStream fis = new FileInputStream(dumpFile);
              fis.read(filecontent);
              fis.close();
              layoutStr = new String(filecontent);
-		} catch (IOException e) {
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
@@ -152,6 +167,35 @@ public class CommandHandler {
 			return false;
 		try {
 			return obj.longClick();
+		} catch (UiObjectNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return false;
+	}
+	
+	//steps 每步5ms。默认为55
+	private static boolean doScrollBackBackward(String xPath, int steps){	
+		UiObject obj = getObject(xPath);
+		if(obj == null)
+			return false;
+		try {
+			UiScrollable scroll = new UiScrollable(obj.getSelector());
+			return scroll.scrollBackward(steps);
+		} catch (UiObjectNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return false;
+	}
+	
+	private static boolean doScrollForward(String xPath, int steps){
+		UiObject obj = getObject(xPath);
+		if(obj == null)
+			return false;
+		try {
+			UiScrollable scroll = new UiScrollable(obj.getSelector());
+			return scroll.scrollForward(steps);
 		} catch (UiObjectNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

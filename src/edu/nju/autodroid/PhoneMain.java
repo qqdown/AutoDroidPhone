@@ -8,6 +8,7 @@ import java.net.Socket;
 
 import com.android.uiautomator.core.UiObject;
 import com.android.uiautomator.core.UiObjectNotFoundException;
+import com.android.uiautomator.core.UiScrollable;
 import com.android.uiautomator.core.UiSelector;
 import com.android.uiautomator.testrunner.UiAutomatorTestCase;
 
@@ -28,8 +29,9 @@ public class PhoneMain extends UiAutomatorTestCase {
 	}
 	
 	public void testDemo() throws UiObjectNotFoundException{
-		UiObject btn = new UiObject(new UiSelector().index(0)).getChild(new UiSelector().index(0)).getChild(new UiSelector().index(1)).getChild(new UiSelector().index(0)).getChild(new UiSelector().index(0));
-		System.out.println(btn.getText());
+		//UiObject btn = new UiObject(new UiSelector().index(0)).getChild(new UiSelector().index(0)).getChild(new UiSelector().index(1)).getChild(new UiSelector().index(0)).getChild(new UiSelector().index(0));
+		UiScrollable scr = new UiScrollable(new UiSelector().scrollable(true));
+		System.out.println(scr.scrollToEnd(100));
 	}
 
 

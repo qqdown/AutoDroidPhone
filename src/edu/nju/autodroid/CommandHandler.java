@@ -1,10 +1,7 @@
 package edu.nju.autodroid;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 
 import com.android.uiautomator.core.UiDevice;
@@ -14,7 +11,6 @@ import com.android.uiautomator.core.UiScrollable;
 import com.android.uiautomator.core.UiSelector;
 
 import android.os.Environment;
-import edu.nju.autodroid.utils.Logger;
 
 public class CommandHandler {
 	public static Command Handle(Command cmd){
@@ -45,50 +41,56 @@ public class CommandHandler {
 			
 		case Command.cmdDoClick:
 			backCmd.params = new String[1];
-			if(doClick(cmd.params[0]))
-				backCmd.params[0] = "true";
-			else
-				backCmd.params[0] = "false";
+			backCmd.params[0] = doClick(cmd.params[0]).toString();
 			break;
 		case Command.cmdDoSetText:
 			backCmd.params = new String[1];
-			if(doSetText(cmd.params[0], cmd.params[1]))
-				backCmd.params[0] = "true";
-			else
-				backCmd.params[0] = "false";
+			backCmd.params[0] = doSetText(cmd.params[0], cmd.params[1]).toString();
 			break;
 		case Command.cmdDoLongClick:
 			backCmd.params = new String[1];
-			if(doLongClick(cmd.params[0]))
-				backCmd.params[0] = "true";
-			else
-				backCmd.params[0] = "false";
+			backCmd.params[0] = doLongClick(cmd.params[0]).toString();
 			break;
+		case Command.cmdDoClickAndWaitForNewWindow:
+			backCmd.params = new String[1];
+			backCmd.params[0] = doClickAndWaitForNewWindow(cmd.params[0], Long.parseLong(cmd.params[1])).toString();
+			break;
+			
 		case Command.cmdDoScrollBackward:
 			backCmd.params = new String[1];
-			if(doScrollBackBackward(cmd.params[0], Integer.parseInt(cmd.params[1])))
-				backCmd.params[0] = "true";
-			else
-				backCmd.params[0] = "false";
+			backCmd.params[0] = doScrollBackBackward(cmd.params[0], Integer.parseInt(cmd.params[1])).toString();
+			break;
 		case Command.cmdDoScrollForward:
 			backCmd.params = new String[1];
-			if(doScrollForward(cmd.params[0], Integer.parseInt(cmd.params[1])))
-				backCmd.params[0] = "true";
-			else
-				backCmd.params[0] = "false";
+			backCmd.params[0] = doScrollForward(cmd.params[0], Integer.parseInt(cmd.params[1])).toString();
+			break;
+		case Command.cmdDoScrollToEnd:
+			backCmd.params = new String[1];
+			backCmd.params[0] = doScrollToEnd(cmd.params[0], Integer.parseInt(cmd.params[1]), Integer.parseInt(cmd.params[2])).toString();
+			break;
+		case Command.cmdDoScrollToBeginning:
+			backCmd.params = new String[1];
+			backCmd.params[0] = doScrollToBeginning(cmd.params[0], Integer.parseInt(cmd.params[1]), Integer.parseInt(cmd.params[2])).toString();
+			break;
+		case Command.cmdDoScrollIntoView:
+			backCmd.params = new String[1];
+			backCmd.params[0] = doScrollIntoView(cmd.params[0], cmd.params[1]).toString();
+			break;
+			
 		default:
 			backCmd.cmd = Command.cmdUnknown;
+			break;
 		}
 		
 		return backCmd;
 	}
 	
 	//0x0001
-	private static boolean pressHome(){
+	private static Boolean pressHome(){
 		return UiDevice.getInstance().pressHome();
 	}
 	
-	private static boolean pressBack(){
+	private static Boolean pressBack(){
 		return UiDevice.getInstance().pressBack();
 	}
 	
@@ -117,13 +119,13 @@ public class CommandHandler {
              fis.close();
              layoutStr = new String(filecontent);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return layoutStr;
 	}
 	
 	//0x1002
+	@Deprecated
 	private static String getActivity(){
 		return UiDevice.getInstance().getCurrentActivityName();
 	}
@@ -134,48 +136,57 @@ public class CommandHandler {
 	}
 	
 	//0x2001
-	private static boolean doClick(String btnPath){
+	private static Boolean doClick(String btnPath){
 		UiObject btn = getObject(btnPath);
 		if(btn == null)
 			return false;
 		try {
 			return btn.click();
 		} catch (UiObjectNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return false;
 	}
 	
 	//0x2002
-	private static boolean doSetText(String xPath, String content){
+	private static Boolean doSetText(String xPath, String content){
 		UiObject obj = getObject(xPath);
 		if(obj == null)
 			return false;
 		try {
 			return obj.setText(content);
 		} catch (UiObjectNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return false;
 	}
 	
-	private static boolean doLongClick(String xPath){
+	private static Boolean doLongClick(String xPath){
 		UiObject obj = getObject(xPath);
 		if(obj == null)
 			return false;
 		try {
 			return obj.longClick();
 		} catch (UiObjectNotFoundException e) {
-			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return false;
+	}
+	
+	private static Boolean doClickAndWaitForNewWindow(String xPath, long timeout){
+		UiObject obj = getObject(xPath);
+		if(obj == null)
+			return false;
+		try {
+			return obj.clickAndWaitForNewWindow(timeout);
+		} catch (UiObjectNotFoundException e) {
 			e.printStackTrace();
 		}
 		return false;
 	}
 	
 	//steps 每步5ms。默认为55
-	private static boolean doScrollBackBackward(String xPath, int steps){	
+	private static Boolean doScrollBackBackward(String xPath, int steps){	
 		UiObject obj = getObject(xPath);
 		if(obj == null)
 			return false;
@@ -183,13 +194,12 @@ public class CommandHandler {
 			UiScrollable scroll = new UiScrollable(obj.getSelector());
 			return scroll.scrollBackward(steps);
 		} catch (UiObjectNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return false;
 	}
 	
-	private static boolean doScrollForward(String xPath, int steps){
+	private static Boolean doScrollForward(String xPath, int steps){
 		UiObject obj = getObject(xPath);
 		if(obj == null)
 			return false;
@@ -197,7 +207,46 @@ public class CommandHandler {
 			UiScrollable scroll = new UiScrollable(obj.getSelector());
 			return scroll.scrollForward(steps);
 		} catch (UiObjectNotFoundException e) {
-			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return false;
+	}
+	
+	private static Boolean doScrollToEnd(String xPath, int maxSwipes, int steps){
+		UiObject obj = getObject(xPath);
+		if(obj == null)
+			return false;
+		try {
+			UiScrollable scroll = new UiScrollable(obj.getSelector());
+			return scroll.scrollToEnd(maxSwipes, steps);
+		} catch (UiObjectNotFoundException e) {
+			e.printStackTrace();
+		}
+		return false;
+	}
+	
+	private static Boolean doScrollToBeginning(String xPath, int maxSwipes, int steps){
+		UiObject obj = getObject(xPath);
+		if(obj == null)
+			return false;
+		try {
+			UiScrollable scroll = new UiScrollable(obj.getSelector());
+			return scroll.scrollToBeginning(maxSwipes, steps);
+		} catch (UiObjectNotFoundException e) {
+			e.printStackTrace();
+		}
+		return false;
+	}
+	
+	private static Boolean doScrollIntoView(String xPath, String objXPath){
+		UiObject o = getObject(xPath);
+		UiObject obj = getObject(objXPath);
+		if(o == null || obj == null)
+			return false;
+		try {
+			UiScrollable scroll = new UiScrollable(o.getSelector());
+			return scroll.scrollIntoView(obj);
+		} catch (UiObjectNotFoundException e) {
 			e.printStackTrace();
 		}
 		return false;
@@ -214,7 +263,6 @@ public class CommandHandler {
 			try {
 				obj = obj.getChild(new UiSelector().index(indexes[i]));
 			} catch (UiObjectNotFoundException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 				return null;
 			}

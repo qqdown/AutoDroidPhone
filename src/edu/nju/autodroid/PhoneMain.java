@@ -38,8 +38,7 @@ public class PhoneMain extends UiAutomatorTestCase {
 	public void testMain() throws IOException, UiObjectNotFoundException{
 		Socket client = null;
 		ServerSocket server = new ServerSocket(PHONE_PORT);
-		
-		
+
 		while(true){
 			System.out.println("Waiting for new server!");
 			try {
@@ -63,5 +62,7 @@ public class PhoneMain extends UiAutomatorTestCase {
 				System.out.println("client error " + e.getMessage());
 			}
 		}
+		
+		//server.close();
 	}
 }
